@@ -51,5 +51,5 @@ The following datasets are used for the specific experiments:
 
 3)  Generative Adversarial Networks
 
-* insert images
+![2](readme_images/gan.png)
 
