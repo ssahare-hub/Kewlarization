@@ -6,25 +6,32 @@ Image colorization using Deep neural network techniques
 A collection of Deep Learning based Image Colorization techniques and corresponding source code/demo program.
 
 ## Prerequisites
-- Linux or macOS
-- Python 2 or 3
+- Linux/macOS/Windows
+- Python 3.7+
+- Tensorflow GPU recommended (2.6)
+- Virtual env/conda recommended
 
 ## Structure
 
-1) extract_unsplash.ipynb - all the functions related to extracting image urls to jpg format
-2) ImageColorization_With_GANs.ipynb - Pretty self explanatory ¯\_(ツ)_/¯
+1) extract_unsplash.ipynb - all the functions related to downloading images from the image url in Unsplash lite dataset to png format
+2) GAN_colorization.ipynb - Generative Adversarial Networks (GAN) using keras for image colorization 
 3) image_urls_unsplash.csv - image urls from the Unsplash lite dataset
-4) model_training_baseline.ipynb (Baseline model)- Basic deep learning model trained on a single image
-5) model_training_level2.ipynb - Similar to baseline model but with tiny-imageNet dataset
+4) model_training_baseline.ipynb (Baseline model)- Basic deep learning model for image colorization trained on a single image
+5) model_training_level2.ipynb - Model trained for image colorization model using CNN and dense neural network using images from celebrity cropped face images, unsplash lite, tiny imageNet,
 
 ## Requirements
 
-Install the following packages using pip
-
-- Keras
+Install the following packages using 
+```
+pip install -r requirements.txt
+```
+- keras
 - tensorflow-gpu
 - scikit-image
 - pandas
+- pillow
+- numPy
+- scikit-learn
 
 ## Dataset preparation
 
@@ -36,8 +43,6 @@ The following datasets are used for the specific experiments:
 1) model_training_baseline.ipynb (Baseline experiment): Trained on a single image
 2) model_training_level2.ipynb: Subset of the Tiny-ImageNet dataset (500 images)
 3) ImageColorization_With_GANs.ipynb: ImageNet/all_kinds
-
-## Experiments
 
 ## Examples
 
