@@ -1,0 +1,8 @@
+numpy==1.20.2
+matplotlib==3.4.1
+image_similarity_measures==0.3.5
+Pillow==9.3.0
+scikit-image
+tensorflow-gpu==2.6.0
+sklearn
+pandas
