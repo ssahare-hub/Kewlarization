@@ -43,11 +43,11 @@ The following datasets are used for the specific experiments:
 
 1) Baseline Experiments
 
-* ![1](readme_images/baseline.png)
+![1](readme_images/baseline.png)
 
 2) Deep Convolution Experiment
 
-* ![2](images/level2.png)
+![2](readme_images/level2.png)
 
 3)  Generative Adversarial Networks
 
